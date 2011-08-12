@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44EDD01513F4FEDB008CF5A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44EDD01413F4FEDB008CF5A0 /* UIKit.framework */; };
+		44EDD01713F4FEDB008CF5A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44EDD01613F4FEDB008CF5A0 /* Foundation.framework */; };
+		44EDD01913F4FEDB008CF5A0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44EDD01813F4FEDB008CF5A0 /* CoreGraphics.framework */; };
+		44EDD01F13F4FEDB008CF5A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44EDD01D13F4FEDB008CF5A0 /* InfoPlist.strings */; };
+		44EDD02213F4FEDB008CF5A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44EDD02113F4FEDB008CF5A0 /* main.m */; };
+		44EDD02513F4FEDB008CF5A0 /* BillingAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44EDD02413F4FEDB008CF5A0 /* BillingAppAppDelegate.m */; };
+		44EDD02813F4FEDB008CF5A0 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44EDD02613F4FEDB008CF5A0 /* MainWindow.xib */; };
+		44EDD02B13F4FEDB008CF5A0 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44EDD02A13F4FEDB008CF5A0 /* RootViewController.m */; };
+		44EDD02E13F4FEDB008CF5A0 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44EDD02C13F4FEDB008CF5A0 /* RootViewController.xib */; };
+		44EDD03513F4FEDB008CF5A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44EDD01413F4FEDB008CF5A0 /* UIKit.framework */; };
+		44EDD03613F4FEDB008CF5A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44EDD01613F4FEDB008CF5A0 /* Foundation.framework */; };
+		44EDD03713F4FEDB008CF5A0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44EDD01813F4FEDB008CF5A0 /* CoreGraphics.framework */; };
+		44EDD03F13F4FEDB008CF5A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44EDD03D13F4FEDB008CF5A0 /* InfoPlist.strings */; };
+		44EDD04213F4FEDB008CF5A0 /* BillingAppTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 44EDD04113F4FEDB008CF5A0 /* BillingAppTests.h */; };
+		44EDD04413F4FEDB008CF5A0 /* BillingAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44EDD04313F4FEDB008CF5A0 /* BillingAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44EDD03813F4FEDB008CF5A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44EDD00713F4FEDB008CF5A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44EDD00F13F4FEDB008CF5A0;
+			remoteInfo = BillingApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		44EDD01013F4FEDB008CF5A0 /* BillingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BillingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44EDD01413F4FEDB008CF5A0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		44EDD01613F4FEDB008CF5A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		44EDD01813F4FEDB008CF5A0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		44EDD01C13F4FEDB008CF5A0 /* BillingApp-Info.plist */ = {isa = PBXFileReference; path = "BillingApp-Info.plist"; sourceTree = "<group>"; };
+		44EDD01E13F4FEDB008CF5A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		44EDD02013F4FEDB008CF5A0 /* BillingApp-Prefix.pch */ = {isa = PBXFileReference; path = "BillingApp-Prefix.pch"; sourceTree = "<group>"; };
+		44EDD02113F4FEDB008CF5A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		44EDD02313F4FEDB008CF5A0 /* BillingAppAppDelegate.h */ = {isa = PBXFileReference; path = BillingAppAppDelegate.h; sourceTree = "<group>"; };
+		44EDD02413F4FEDB008CF5A0 /* BillingAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BillingAppAppDelegate.m; sourceTree = "<group>"; };
+		44EDD02713F4FEDB008CF5A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		44EDD02913F4FEDB008CF5A0 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		44EDD02A13F4FEDB008CF5A0 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		44EDD02D13F4FEDB008CF5A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		44EDD03413F4FEDB008CF5A0 /* BillingAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BillingAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44EDD03C13F4FEDB008CF5A0 /* BillingAppTests-Info.plist */ = {isa = PBXFileReference; path = "BillingAppTests-Info.plist"; sourceTree = "<group>"; };
+		44EDD03E13F4FEDB008CF5A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		44EDD04013F4FEDB008CF5A0 /* BillingAppTests-Prefix.pch */ = {isa = PBXFileReference; path = "BillingAppTests-Prefix.pch"; sourceTree = "<group>"; };
+		44EDD04113F4FEDB008CF5A0 /* BillingAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BillingAppTests.h; sourceTree = "<group>"; };
+		44EDD04313F4FEDB008CF5A0 /* BillingAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BillingAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44EDD00D13F4FEDB008CF5A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44EDD01513F4FEDB008CF5A0 /* UIKit.framework in Frameworks */,
+				44EDD01713F4FEDB008CF5A0 /* Foundation.framework in Frameworks */,
+				44EDD01913F4FEDB008CF5A0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44EDD03013F4FEDB008CF5A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44EDD03513F4FEDB008CF5A0 /* UIKit.framework in Frameworks */,
+				44EDD03613F4FEDB008CF5A0 /* Foundation.framework in Frameworks */,
+				44EDD03713F4FEDB008CF5A0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44EDD00513F4FEDB008CF5A0 = {
+			isa = PBXGroup;
+			children = (
+				44EDD01A13F4FEDB008CF5A0 /* BillingApp */,
+				44EDD03A13F4FEDB008CF5A0 /* BillingAppTests */,
+				44EDD01313F4FEDB008CF5A0 /* Frameworks */,
+				44EDD01113F4FEDB008CF5A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44EDD01113F4FEDB008CF5A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44EDD01013F4FEDB008CF5A0 /* BillingApp.app */,
+				44EDD03413F4FEDB008CF5A0 /* BillingAppTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44EDD01313F4FEDB008CF5A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44EDD01413F4FEDB008CF5A0 /* UIKit.framework */,
+				44EDD01613F4FEDB008CF5A0 /* Foundation.framework */,
+				44EDD01813F4FEDB008CF5A0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44EDD01A13F4FEDB008CF5A0 /* BillingApp */ = {
+			isa = PBXGroup;
+			children = (
+				44EDD02313F4FEDB008CF5A0 /* BillingAppAppDelegate.h */,
+				44EDD02413F4FEDB008CF5A0 /* BillingAppAppDelegate.m */,
+				44EDD02613F4FEDB008CF5A0 /* MainWindow.xib */,
+				44EDD02913F4FEDB008CF5A0 /* RootViewController.h */,
+				44EDD02A13F4FEDB008CF5A0 /* RootViewController.m */,
+				44EDD02C13F4FEDB008CF5A0 /* RootViewController.xib */,
+				44EDD01B13F4FEDB008CF5A0 /* Supporting Files */,
+			);
+			path = BillingApp;
+			sourceTree = "<group>";
+		};
+		44EDD01B13F4FEDB008CF5A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44EDD01C13F4FEDB008CF5A0 /* BillingApp-Info.plist */,
+				44EDD01D13F4FEDB008CF5A0 /* InfoPlist.strings */,
+				44EDD02013F4FEDB008CF5A0 /* BillingApp-Prefix.pch */,
+				44EDD02113F4FEDB008CF5A0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		44EDD03A13F4FEDB008CF5A0 /* BillingAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				44EDD04113F4FEDB008CF5A0 /* BillingAppTests.h */,
+				44EDD04313F4FEDB008CF5A0 /* BillingAppTests.m */,
+				44EDD03B13F4FEDB008CF5A0 /* Supporting Files */,
+			);
+			path = BillingAppTests;
+			sourceTree = "<group>";
+		};
+		44EDD03B13F4FEDB008CF5A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44EDD03C13F4FEDB008CF5A0 /* BillingAppTests-Info.plist */,
+				44EDD03D13F4FEDB008CF5A0 /* InfoPlist.strings */,
+				44EDD04013F4FEDB008CF5A0 /* BillingAppTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44EDD00F13F4FEDB008CF5A0 /* BillingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44EDD04713F4FEDB008CF5A0 /* Build configuration list for PBXNativeTarget "BillingApp" */;
+			buildPhases = (
+				44EDD00C13F4FEDB008CF5A0 /* Sources */,
+				44EDD00D13F4FEDB008CF5A0 /* Frameworks */,
+				44EDD00E13F4FEDB008CF5A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BillingApp;
+			productName = BillingApp;
+			productReference = 44EDD01013F4FEDB008CF5A0 /* BillingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44EDD03313F4FEDB008CF5A0 /* BillingAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44EDD04A13F4FEDB008CF5A0 /* Build configuration list for PBXNativeTarget "BillingAppTests" */;
+			buildPhases = (
+				44EDD02F13F4FEDB008CF5A0 /* Sources */,
+				44EDD03013F4FEDB008CF5A0 /* Frameworks */,
+				44EDD03113F4FEDB008CF5A0 /* Resources */,
+				44EDD03213F4FEDB008CF5A0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44EDD03913F4FEDB008CF5A0 /* PBXTargetDependency */,
+			);
+			name = BillingAppTests;
+			productName = BillingAppTests;
+			productReference = 44EDD03413F4FEDB008CF5A0 /* BillingAppTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44EDD00713F4FEDB008CF5A0 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 44EDD00A13F4FEDB008CF5A0 /* Build configuration list for PBXProject "BillingApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 44EDD00513F4FEDB008CF5A0;
+			productRefGroup = 44EDD01113F4FEDB008CF5A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44EDD00F13F4FEDB008CF5A0 /* BillingApp */,
+				44EDD03313F4FEDB008CF5A0 /* BillingAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44EDD00E13F4FEDB008CF5A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44EDD01F13F4FEDB008CF5A0 /* InfoPlist.strings in Resources */,
+				44EDD02813F4FEDB008CF5A0 /* MainWindow.xib in Resources */,
+				44EDD02E13F4FEDB008CF5A0 /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44EDD03113F4FEDB008CF5A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44EDD03F13F4FEDB008CF5A0 /* InfoPlist.strings in Resources */,
+				44EDD04213F4FEDB008CF5A0 /* BillingAppTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44EDD03213F4FEDB008CF5A0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44EDD00C13F4FEDB008CF5A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44EDD02213F4FEDB008CF5A0 /* main.m in Sources */,
+				44EDD02513F4FEDB008CF5A0 /* BillingAppAppDelegate.m in Sources */,
+				44EDD02B13F4FEDB008CF5A0 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44EDD02F13F4FEDB008CF5A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44EDD04413F4FEDB008CF5A0 /* BillingAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44EDD03913F4FEDB008CF5A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44EDD00F13F4FEDB008CF5A0 /* BillingApp */;
+			targetProxy = 44EDD03813F4FEDB008CF5A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		44EDD01D13F4FEDB008CF5A0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44EDD01E13F4FEDB008CF5A0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		44EDD02613F4FEDB008CF5A0 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44EDD02713F4FEDB008CF5A0 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		44EDD02C13F4FEDB008CF5A0 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44EDD02D13F4FEDB008CF5A0 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+		44EDD03D13F4FEDB008CF5A0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44EDD03E13F4FEDB008CF5A0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44EDD04513F4FEDB008CF5A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		44EDD04613F4FEDB008CF5A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		44EDD04813F4FEDB008CF5A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BillingApp/BillingApp-Prefix.pch";
+				INFOPLIST_FILE = "BillingApp/BillingApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		44EDD04913F4FEDB008CF5A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BillingApp/BillingApp-Prefix.pch";
+				INFOPLIST_FILE = "BillingApp/BillingApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		44EDD04B13F4FEDB008CF5A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BillingApp.app/BillingApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BillingAppTests/BillingAppTests-Prefix.pch";
+				INFOPLIST_FILE = "BillingAppTests/BillingAppTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		44EDD04C13F4FEDB008CF5A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BillingApp.app/BillingApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BillingAppTests/BillingAppTests-Prefix.pch";
+				INFOPLIST_FILE = "BillingAppTests/BillingAppTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44EDD00A13F4FEDB008CF5A0 /* Build configuration list for PBXProject "BillingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44EDD04513F4FEDB008CF5A0 /* Debug */,
+				44EDD04613F4FEDB008CF5A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44EDD04713F4FEDB008CF5A0 /* Build configuration list for PBXNativeTarget "BillingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44EDD04813F4FEDB008CF5A0 /* Debug */,
+				44EDD04913F4FEDB008CF5A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		44EDD04A13F4FEDB008CF5A0 /* Build configuration list for PBXNativeTarget "BillingAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44EDD04B13F4FEDB008CF5A0 /* Debug */,
+				44EDD04C13F4FEDB008CF5A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44EDD00713F4FEDB008CF5A0 /* Project object */;
+}
